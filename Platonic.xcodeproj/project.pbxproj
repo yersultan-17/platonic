@@ -27,6 +27,7 @@
 		58423FCA1F220C33002D58FB /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58423FC91F220C33002D58FB /* Points.swift */; };
 		58423FCC1F220D75002D58FB /* Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58423FCB1F220D75002D58FB /* Lines.swift */; };
 		58423FD01F220E2A002D58FB /* getFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58423FCF1F220E2A002D58FB /* getFigures.swift */; };
+		584C5B92203AE2BE0096EA81 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C5B91203AE2BE0096EA81 /* StatusViewController.swift */; };
 		584E79C41F2B13E2009572E4 /* Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584E79C31F2B13E2009572E4 /* Letters.swift */; };
 		5885AEEC1F441F130093EEA3 /* editPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5885AEEB1F441F130093EEA3 /* editPopUpView.swift */; };
 		58B7EB021F2719AF00711E9F /* sceneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B7EB011F2719AF00711E9F /* sceneExtensions.swift */; };
@@ -62,6 +63,7 @@
 		58423FC91F220C33002D58FB /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
 		58423FCB1F220D75002D58FB /* Lines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lines.swift; sourceTree = "<group>"; };
 		58423FCF1F220E2A002D58FB /* getFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getFigures.swift; sourceTree = "<group>"; };
+		584C5B91203AE2BE0096EA81 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		584E79C31F2B13E2009572E4 /* Letters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letters.swift; sourceTree = "<group>"; };
 		5885AEEB1F441F130093EEA3 /* editPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPopUpView.swift; sourceTree = "<group>"; };
 		58B7EB011F2719AF00711E9F /* sceneExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sceneExtensions.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		58423FB01F2081FC002D58FB /* Platonic */ = {
 			isa = PBXGroup;
 			children = (
+				584C5B91203AE2BE0096EA81 /* StatusViewController.swift */,
 				58423FB11F2081FC002D58FB /* AppDelegate.swift */,
 				58423FB51F2081FC002D58FB /* ViewController.swift */,
 				580C0D9F1F9D997500EFF974 /* ARSCNViewDelegate.swift */,
@@ -284,6 +287,7 @@
 				58B7EB131F285FC100711E9F /* FocusSquare.swift in Sources */,
 				58423FD01F220E2A002D58FB /* getFigures.swift in Sources */,
 				58F15C0C1F9EFCC90068C94A /* objectSelection.swift in Sources */,
+				584C5B92203AE2BE0096EA81 /* StatusViewController.swift in Sources */,
 				5819EFDA1F330B40002778CB /* gestures.swift in Sources */,
 				5819EFDC1F332029002778CB /* crossSection.swift in Sources */,
 				580C0DA21F9D9F4500EFF974 /* VirtualObjectLoader.swift in Sources */,

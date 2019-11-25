@@ -179,6 +179,7 @@ class VirtualObject: SCNNode, Copying {
          the camera to the content, so it affects only the percieved distance to the
          object. Averaging does _not_ make the content "lag".
          */
+        
         if smoothMovement {
             let hitTestResultDistance = simd_length(positionOffsetFromCamera)
             
@@ -265,7 +266,7 @@ extension VirtualObject {
     }
 }
 
-extension Collection where Iterator.Element == Float, IndexDistance == Int {
+extension Collection where Iterator.Element == Float {
     /// Return the mean of a list of Floats. Used with `recentVirtualObjectDistances`.
     var average: Float? {
         guard !isEmpty else {
